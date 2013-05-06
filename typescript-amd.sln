@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "typescript-amd-seed", "typescript-amd-seed.csproj", "{0C9D2129-3B88-47A1-B4BD-3D04E529EA31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "typescript-amd", "typescript-amd.csproj", "{0C9D2129-3B88-47A1-B4BD-3D04E529EA31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

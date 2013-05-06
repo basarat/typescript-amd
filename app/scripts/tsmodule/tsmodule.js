@@ -1,4 +1,4 @@
-define(["require", "exports", "tsmoduleDependency"], function(require, exports, __dependency__) {
+define(["require", "exports", "./tsmoduleDependency"], function(require, exports, __dependency__) {
     var dependency = __dependency__;
 
     function tsmoduleFunction(what) {
@@ -7,4 +7,3 @@ define(["require", "exports", "tsmoduleDependency"], function(require, exports, 
     }
     exports.tsmoduleFunction = tsmoduleFunction;
 })
-//@ sourceMappingURL=tsmodule.js.map

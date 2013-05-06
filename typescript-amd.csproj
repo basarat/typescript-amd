@@ -19,6 +19,9 @@
     <Content Include="app\css\app.css" />
     <Content Include="app\js\legacyJs.js" />
     <Content Include="app\js\legacyJsDependency.js" />
+    <Content Include="app\scripts\app.min.js">
+      <DependentUpon>app.ts</DependentUpon>
+    </Content>
     <Content Include="app\scripts\defs\jquery\jquery.d.ts" />
     <Content Include="app\scripts\defs\require\require.d.ts" />
     <Content Include="app\scripts\jsmodule\newJs.js" />
@@ -31,6 +34,9 @@
     </Content>
     <Content Include="app\index.htm" />
     <Content Include="app\scripts\tsmodule\tsmodule.js">
+      <DependentUpon>tsmodule.ts</DependentUpon>
+    </Content>
+    <Content Include="app\scripts\tsmodule\tsmodule.min.js">
       <DependentUpon>tsmodule.ts</DependentUpon>
     </Content>
     <Content Include="app\scripts\tsmodule\tsmoduleDependency.js">

@@ -1,0 +1,5 @@
+D:\CodingScratch\typescript-amd\bin\typescript-amd.dll
+D:\CodingScratch\typescript-amd\bin\typescript-amd.pdb
+D:\CodingScratch\typescript-amd\obj\Debug\typescript-amd.csprojResolveAssemblyReference.cache
+D:\CodingScratch\typescript-amd\obj\Debug\typescript-amd.dll
+D:\CodingScratch\typescript-amd\obj\Debug\typescript-amd.pdb

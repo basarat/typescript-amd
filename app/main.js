@@ -8,18 +8,27 @@
         jquery: '../lib/jquery',
         legacyJs: '../js/legacyJs',
         legacyJsDependency: '../js/legacyJsDependency'
+        
         // Not adding newJs here simply to demonstrate how to access those directly from typescript without using paths
     },
 
-    // For root level exports.
-    // For more than one global export you need to use a function : https://github.com/jrburke/requirejs/issues/482
+    // For root level exports. http://requirejs.org/docs/api.html#config-shim
     shim: {
         'legacyJs': {
+            // For dependencies. 
             deps: ['legacyJsDependency'],
-            exports: 'legacyJsFunction'
+            // For more than one global export you need to use an init function :
+            init: function (legacyJsSDependency) {
+                // Inside this function this will refer to the global scope of the file
+                return {
+                    'legacyJsFunction': this.legacyJsFunction,
+                    'legacyJsFunction2': this.legacyJsFunction2
+                };
+            }
         },
         'legacyJsDependency': {
-             exports: 'sayIt'
+            // For simple single exports 
+            exports: 'sayIt'
         },
     },
 });

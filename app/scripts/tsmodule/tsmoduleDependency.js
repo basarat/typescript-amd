@@ -5,3 +5,4 @@ define(["require", "exports"], function(require, exports) {
     }
     exports.sayIt = sayIt;
 })
+//@ sourceMappingURL=tsmoduleDependency.js.map

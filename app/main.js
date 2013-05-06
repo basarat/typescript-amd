@@ -10,8 +10,8 @@
 
     paths: {
         jquery: '../lib/jquery', 
-        legacyJs: 'js/legacyJs',
-        legacyJsDependency: './js/legacyJsDependency'
+        legacyJs: 'js/legacyJs', // Relative to baseUrl
+        legacyJsDependency: './js/legacyJsDependency' // Relative to this file
         
         // Not adding newJs here simply to demonstrate how to access those directly from typescript without using paths
     },

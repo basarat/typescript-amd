@@ -19,4 +19,3 @@ define(["require", "exports", "tsmodule/tsmodule", "legacyJs", "jsmodule/newJs"]
     }
     exports.start = start;
 })
-//@ sourceMappingURL=app.js.map

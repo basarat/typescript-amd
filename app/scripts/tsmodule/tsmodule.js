@@ -10,4 +10,3 @@ define(["require", "exports", "./tsmoduleDependency"], function(require, exports
     }
     exports.tsmoduleFunction = tsmoduleFunction;
 })
-//@ sourceMappingURL=tsmodule.js.map

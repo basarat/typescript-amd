@@ -17,8 +17,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app\css\app.css" />
-    <Content Include="app\js\legacyJs.js" />
-    <Content Include="app\js\legacyJsDependency.js" />
+    <Content Include="app\scripts\js\legacyJs.js" />
+    <Content Include="app\scripts\js\legacyJsDependency.js" />
     <Content Include="app\scripts\app.min.js">
       <DependentUpon>app.ts</DependentUpon>
     </Content>

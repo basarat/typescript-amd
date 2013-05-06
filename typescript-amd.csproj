@@ -36,9 +36,6 @@
     <Content Include="app\scripts\tsmodule\tsmodule.js">
       <DependentUpon>tsmodule.ts</DependentUpon>
     </Content>
-    <Content Include="app\scripts\tsmodule\tsmodule.min.js">
-      <DependentUpon>tsmodule.ts</DependentUpon>
-    </Content>
     <Content Include="app\scripts\tsmodule\tsmoduleDependency.js">
       <DependentUpon>tsmoduleDependency.ts</DependentUpon>
     </Content>

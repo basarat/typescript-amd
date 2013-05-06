@@ -2,16 +2,18 @@
     // So that require calls compiled from typescript work as expected
     // The relative path from this file to the root of your typescript files 
     baseUrl: './scripts',
+    // Relative urls continue to work normal (from source file).
+    // However Non-relative URLs use this as base
 
-    // All paths are relative to baseUrl
     paths: {
-        jquery: '../lib/jquery',
-        legacyJs: '../js/legacyJs',
-        legacyJsDependency: '../js/legacyJsDependency'
+        jquery: '../lib/jquery', 
+        legacyJs: 'js/legacyJs',
+        legacyJsDependency: './js/legacyJsDependency'
         
         // Not adding newJs here simply to demonstrate how to access those directly from typescript without using paths
     },
 
+    // For legacy files that do not export anything you need shims
     // For root level exports. http://requirejs.org/docs/api.html#config-shim
     shim: {
         'legacyJs': {
@@ -27,10 +29,13 @@
             }
         },
         'legacyJsDependency': {
-            // For simple single exports 
+            // For simple single exports Just use exports variable
             exports: 'sayIt'
         },
     },
+    
+    // Alternative to shim is something that jquery does. See bottom on jquery file. 
+
 });
 
 // Start the app: 

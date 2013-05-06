@@ -1,9 +1,12 @@
 ﻿require.config({
-    // So that require calls compiled from typescript work as expected
-    // The relative path from this file to the root of your typescript files 
-    baseUrl: './scripts',
+    
+    // Once you setup baseUrl
     // Relative urls continue to work normal (from source file).
-    // However Non-relative URLs use this as base
+    // However Non-relative URLs use this as base. 
+    // By default this is the location of requirejs. 
+    baseUrl: './scripts',
+    // Since I just used a relative url. This url is relative to this file.
+    
 
     paths: {
         jquery: '../lib/jquery', 

@@ -1,4 +1,4 @@
-//     require-2.1.1.d.ts
+//     require-2.3.5.d.ts
 //     (c) 2012 Josh Baldwin
 //     require.d.ts may be freely distributed under the MIT license.
 //     For all details and documentation:
@@ -81,11 +81,11 @@ interface RequireConfig {
 	// If set to true, an error will be thrown if a script loads
 	// that does not call define() or have shim exports string
 	// value that can be checked.
-	enforceDefine?: bool;
+	enforceDefine?: boolean;
 
 	// If set to true, document.createElementNS() will be used
 	// to create script elements.
-	xhtml?: bool;
+	xhtml?: boolean;
 
 	/**
 	* Extra query string arguments appended to URLs that RequireJS
